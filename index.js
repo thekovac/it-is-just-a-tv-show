@@ -14,3 +14,5 @@ playButton.addEventListener("click", (e) => {
     audioElement.currentTime = 0;
   }
 });
+
+audioElement.addEventListener("ended", () => (playButton.textContent = "Play"));

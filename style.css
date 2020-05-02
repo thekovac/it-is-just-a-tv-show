@@ -13,12 +13,22 @@ body {
   background: blue;
   color: white;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 60px;
   cursor: pointer;
   position: absolute;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  transition: background 250ms ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#play-button:hover {
+  background: rgb(9, 9, 121);
+}
+#play-button:focus {
+  box-shadow: 0 0 3pt 2pt blue;
 }
 .tv-show-message {
   font-size: 60px;
