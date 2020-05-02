@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 100vh;
+  flex-direction: column;
+}
+#play-button {
+  height: 200px;
+  width: 200px;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  cursor: pointer;
+  position: absolute;
+}
+.tv-show-message {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .tv-show-message {
+    top: 5px;
+  }
+}
